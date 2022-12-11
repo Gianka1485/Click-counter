@@ -1,0 +1,15 @@
+.count-container {
+    border: 10px solid hsl(290, 70%, 80%);
+    border-radius: 50%;
+    background-color: hsl(290, 100%, 90%);
+    color: hsla(0, 0%, 5%, .85);
+    font-family: 'Nunito ExtraBold', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}

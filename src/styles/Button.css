@@ -1,0 +1,63 @@
+.button {
+    border: 5px solid;
+    border-radius: 30px;
+    font-family: 'Nunito ExtraBold', sans-serif;
+    font-size: 1.25em;
+    color: hsla(0, 0%, 5%, .85);
+    position: absolute;
+    height: 60px;
+    width: 140px;
+    transition: .25s;
+}
+
+.button:hover {
+    border-radius: 32.5px;
+    color: hsla(0, 0%, 5%, .80);
+    font-size: 1.30em;
+    height: 65px;
+    width: 160px;
+}
+
+.button:active {
+    border-radius: 31.25px;
+    color: hsla(0, 100%, 0%, .75);
+    font-size: 1.275em;
+    height: 62.5px;
+    width: 150px;
+}
+
+.button-click {
+    border-color: hsl(265, 80%, 80%);
+    background-color: hsl(265, 100%, 90%);
+    bottom: 140px;
+}
+
+.button-click:hover {
+    border-color: hsl(265, 80%, 75%);
+    background-color: hsl(265, 100%, 85%);
+    bottom: 137.5px;
+}
+
+.button-click:active {
+    border-color: hsl(265, 80%, 70%);
+    background-color: hsl(265, 100%, 80%);
+    bottom: 138.75px;
+}
+
+.button-restart {
+    border-color: hsl(335, 80%, 80%);
+    background-color: hsl(335, 100%, 90%);
+    bottom: 50px;
+}
+
+.button-restart:hover {
+    border-color: hsl(335, 80%, 75%);
+    background-color: hsl(335, 100%, 85%);
+    bottom: 47.5px;
+}
+
+.button-restart:active {
+    border-color: hsl(335, 80%, 70%);
+    background-color: hsl(335, 100%, 80%);
+    bottom: 48.75px;
+}

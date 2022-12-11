@@ -1,0 +1,11 @@
+.main-container {
+    background-color: hsla(0, 0%, 100%, .9);
+    border-radius: 25px;
+    position: relative;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
