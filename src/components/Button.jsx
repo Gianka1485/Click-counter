@@ -10,4 +10,5 @@ function Button({ text, isButtonClick, controlClick }) {
     );
 }
 
+
 export default Button;
